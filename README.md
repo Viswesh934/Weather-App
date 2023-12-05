@@ -30,6 +30,11 @@ This README details the **Weather App**, providing real-time weather insights ba
 **Dependencies:**
 
 * Open Meteo API: Fueling the app with real-time weather data.
+*  Do check the API it is available for free for developers: https://open-meteo.com/
+  
+    ![image](https://github.com/Viswesh934/Weather-App/assets/98519767/1c856d94-6e38-45c1-adfc-67676a65f4f5)
+
+* You can add other features and get the URL for them using their user freindly docs
 
 ## Server-Side Component:
 
@@ -49,9 +54,13 @@ This README details the **Weather App**, providing real-time weather insights ba
 * **City Coordinates API Endpoint:** `/getCoordinates` accepts a `city` query parameter and returns latitude, longitude, and city name from the database.
 
 ```bash
-GET http://localhost:3000/getCoordinates?city=Berlin
+GET http://localhost:3000/getCoordinates?city=Berlin || curl http://localhost:3000/getCoordinates?city=Berlin
+
 ```
-.
+![image](https://github.com/Viswesh934/Weather-App/assets/98519767/511733d9-4dfa-4df3-a6c3-8bb79cc9e862)
+
+* You can try this both in postman and your git bash 
+
 **Dependencies:**
 
 * Express: Streamlining web application development for Node.js.
